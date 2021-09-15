@@ -1,0 +1,32 @@
+{
+  "name": "jsandts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.15.4",
+    "babel-loader": "^8.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/test -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basicButtons/jsTsBasic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basicButtons/jsTsBasic/issues"
+  },
+  "homepage": "https://github.com/basicButtons/jsTsBasic#readme"
+}
